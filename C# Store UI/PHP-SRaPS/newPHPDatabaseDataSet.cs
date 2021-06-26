@@ -1,0 +1,3 @@
+﻿namespace PHP_SRaPS
+{
+}

@@ -1,0 +1,107 @@
+/* CSS for main content section of the web store*/
+#content {
+  position: relative;
+  padding: 20px;
+  min-height: calc(100vh + 50px);
+}
+/* Footer */
+footer {
+  background: #55513d;
+  color: white;
+  width: 100%;
+  position: absolute;
+}
+
+/*For menu bar*/
+div.menu-container {
+  padding: 100px;
+}
+.item {
+  width: 18%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+div.menu-container .row {
+  margin-bottom: 50px !important;
+}
+div.menu-container .row .item {
+  border: 1px solid #000 !important;
+  padding: 10px !important;
+}
+.item-img-top {
+  width: 100%;
+  min-height: 220px;
+}
+div.menu-container .row .item {
+  box-shadow: 3px 4px 0px 0px #b5b5b5;
+}
+.item-detail-text {
+  width: 80%;
+}
+.item-detail-img {
+  clear: both;
+  float: left;
+  width: 50%;
+}
+
+/*CSS for the order table, payment in Order page*/
+.order_table {
+  border: 1px solid black;
+  width: 100%;
+}
+.order_table th,
+td {
+  border: 1px solid black;
+}
+.payment {
+  text-align: center;
+  padding: 5%;
+}
+
+/*CSS for Login page*/
+#login_button {
+  width: 100px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 15px;
+  height: 40px;
+  background: #86720b;
+  color: black;
+}
+#login_button:hover {
+  cursor: pointer;
+  background: #f78730;
+  color: black;
+}
+.login {
+  min-height: calc(100vh - 400px);
+  width: 40%;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-bottom: 10%;
+  background: black;
+  opacity: 0.8;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 20px;
+}
+.login p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #86720b;
+}
+.login input {
+  margin-top: 15px;
+  width: 60%;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+  background: transparent;
+  height: 40px;
+  color: #86720b;
+}

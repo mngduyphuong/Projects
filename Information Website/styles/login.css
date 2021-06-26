@@ -1,0 +1,82 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url(images/background2.jpg);
+    background-size: cover;
+    color: #f78730;
+}
+#logo{
+    margin-top: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px; 
+
+}
+
+.login{
+    width: 420px;
+    height: 510px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: black;
+    opacity: 0.8;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.login p{
+    margin: 10px 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input{
+    width: 80%;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: transparent;
+    height: 40px;
+    color: #fff;
+}
+
+#button{
+    border: none;
+    outline: none;
+     font-size: 20px;
+    border-radius: 20px;
+    height: 40px;
+    background: darkred;
+    color: black;
+}
+
+#button:hover {
+    cursor: pointer;
+    background: #f78730;
+    color: black;
+}
+
+.login a{
+    text-decoration: none;
+    color: #f78730;
+    padding: 5px;
+}
+
+.login a:hover{
+    color: blue;
+}
+
+    
